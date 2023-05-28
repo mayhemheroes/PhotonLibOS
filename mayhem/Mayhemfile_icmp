@@ -1,0 +1,5 @@
+project: photonlibos
+target: icmp
+cmds:
+  - cmd: /fuzz_icmp
+    libfuzzer: true
